@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="wrapper">
+    <div id = "loading-screen">
+        <div id="loader">
+            <div id="box"></div>
+            <div id="hill"></div>
+        </div>
+    </div>
+
+    <header>
+        <div class="header-content">
+
+            <h1 id="webpage-title"></h1>
+            <nav>
+                <ul>
+                    <li><a href="#about" id="about-link">About</a></li>
+                    <li><a href="#projects" id="projects-link">Projects</a></li>
+                    <li><a href="#photos" id="photos-link">Photos</a></li>
+                    <li><a href="#contact" id="contact-link">Contact</a></li>
+                </ul>
+            </nav>
+            <button id="language-toggle"></button>
+        </div>
+    </header>
+
+    <!-- Top Section with Cascading Photos -->
+    <section id="top-section">
+        <div id = photo-container>
+        <div class="main-photo">
+            <img src="images/UFBlanket.JPG" alt="Your Photo" id="profile-photo">
+        </div>
+        <div class="cascading-photos">
+            <img src="images/python-logo-only.png" alt="Skill 1">
+            <img src="images/C++Logo.png" alt="Skill 2">
+            <img src="images/Go-Logo_Blue.png" alt="Skill 3">
+            <img src="images/JavaScript-logo.png" alt="Skill 4">
+            <img src="images/HTML5_logo.png" alt="Skill 5">
+        </div>
+        </div>
+    </section>
+
+    <section id="welcome" class="section welcome-section">
+        <div class="container">
+            <h2 id="welcome-title"></h2>
+            <p id="welcome-description"></p>
+        </div>
+
+    </section>
+
+    <section id="about" class="section about-section">
+        <div class="container">
+            <h2 id="about-title"></h2>
+            <p id="about-description"></p>
+        </div>
+    </section>
+
+    <section id="projects" class="section projects-section">
+        <div class="container">
+            <h2 id="projects-title">Projects🧑‍💻</h2>
+            <div class="project-grid" id="projectsContainer">
+                <!-- Projects will be added here via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <section id="photos" class="section photos-section">
+        <div class="container">
+            <h2 id="photos-title">Photo Gallery🖼️</h2>
+            <div class="photo-grid">
+                <img src="images/MerryMacmas.jpg" alt="Photo 1">
+                <img src="images/Alligator.jpg" alt="Photo 2">
+                <img src="images/Donating_Platelets.jpg" alt="Photo 3">
+            </div>
+            <div class="photo-grid">
+                <img src="images/ColoradoBirdseye.jpg" alt = "Photo 4">
+                <img src="images/Minesweeper_Headache.jpg" alt = "Photo 5">
+                <img src="images/Annoying_Arduino.jpg" alt = "Photo 6">
+            </div>
+            <div class="photo-grid">
+                <img src="images/CarloCloseup (1).jpg" alt = "Photo 7">
+                <img src="images/Shpe_Utah_Convention.jpg" alt = "Photo 8">
+                <img src="images/Zeek_Standard.JPG" alt="Photo 9">
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <h2 id="contact-title">Contact Me</h2>
+            <div class="contact-info">
+                <p><strong>Email:</strong> <a href="ezequiel.medrano1274@gmail.com">ezequiel.medrano1274@gmail.com</a></p>
+                <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/ezequiel-medrano" target="_blank">https://www.linkedin.com/in/ezequiel-medrano</a></p>
+            </div>
+        </div>
+    </section>
+    
+
+    <footer>
+        <p>&copy; 2024 Ezequiel Medrano's Portfolio Website</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
